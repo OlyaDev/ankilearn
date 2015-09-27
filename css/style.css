@@ -9,11 +9,35 @@ Version    : 1.0
 Released   : 20120712
 */
 
+.raduis-left{
+  border-radius: 10px 0px 0px 10px;
+}
 
+.raduis-right{
+  border-radius: 0 10px 10px 0px;
+}
+.menu-hat{
+  padding: 20px;
+  font-size: 110%;
+  text-align:  center;
+  background: #6495ED;
+  background: linear-gradient(top, #fff 5%, #81A0D9 100%);
+  background: -moz-linear-gradient(top, #fff 5%, #81A0D9 100%);
+  background: -webkit-linear-gradient(top, #fff 5%, #81A0D9 100%);
+  background: -o-linear-gradient(top, #fff 5%, #81A0D9 100%);
+   
+  box-shadow: 0 0 9px rgba(0,0,0,.15);
+  font-family: Lucida Console, monospace;
 
-.wrapper{
+}
 
-
-  
-
+.menu-hat:hover { 
+ text-decoration: none;
+ background-color: #829FD4;
+ background: linear-gradient(top, #fff 5%, #7893C4 100%);
+ background: -moz-linear-gradient(top, #fff 5%, #7893C4 100%);
+ background: -webkit-linear-gradient(top, #fff 5%, #7893C4 100%);
+ background: -o-linear-gradient(top, #fff 5%, #7893C4 100%);
+ 
+ box-shadow: 0 0 9px rgba(0,0,0,.15);
 }
