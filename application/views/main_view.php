@@ -1,14 +1,13 @@
  
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+ <h1>Главная</h1>
 
-    <div class="row">
-        
+<?php
+global $db;
+  $query = "SELECT * FROM mybd";
+  $result = mysqli_query($db, $query); 
+$row = mysqli_fetch_assoc($result); 
+$home_out = $row['home'];
 
-    </div>
-  </div>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
- 
+
+?>
+<?php echo $home_out;?>
