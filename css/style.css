@@ -25,10 +25,7 @@ Released   : 20120712
   background: -moz-linear-gradient(top, #fff 5%, #81A0D9 100%);
   background: -webkit-linear-gradient(top, #fff 5%, #81A0D9 100%);
   background: -o-linear-gradient(top, #fff 5%, #81A0D9 100%);
-   
-  box-shadow: 0 0 9px rgba(0,0,0,.15);
   font-family: Lucida Console, monospace;
-
 }
 
 .menu-hat:hover { 
@@ -40,4 +37,25 @@ Released   : 20120712
  background: -o-linear-gradient(top, #fff 5%, #7893C4 100%);
  
  box-shadow: 0 0 9px rgba(0,0,0,.15);
+}
+
+.middle{
+
+}
+.submenu{
+
+}
+.content{
+
+}
+
+@media (max-device-width: 480px){
+	.row{
+		font-size: small;
+	}
+}
+@media (min-device-width: 480px){
+	.row{
+		font-size: large;
+	}
 }

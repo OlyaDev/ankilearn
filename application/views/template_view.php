@@ -24,9 +24,9 @@
 			      <div class="col-xs-3 menu-hat raduis-right"><a href="/contacts">Контакты</a></div>
 		    </div>
 
-		    <div class="row">
-		    		<div class="col-xs-2">колонка для подменю</div>
-		    		<div class="col-xs-10"><?php include 'application/views/'.$content_view; ?></div>
+		    <div class="middle">
+		    		<div class="col-xs-2 submenu">колонка для подменю</div>
+		    		<div class="col-xs-10 content"><?php include 'application/views/'.$content_view; ?></div>
 		    </div>
 
 
