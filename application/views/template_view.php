@@ -19,14 +19,14 @@
   <div class="container">
 		    <div class="row">
 			      <div class="col-xs-3 menu-hat raduis-left"><a href="/">Главная</a></div>
-			      <div class="col-xs-3 menu-hat"><a href="/services">Скачать</a></div>
-			      <div class="col-xs-3 menu-hat"><a href="/portfolio">Анки</a></div>
+			      <div class="col-xs-3 menu-hat"><a href="/download">Скачать</a></div>
+			      <div class="col-xs-3 menu-hat"><a href="/anki">Анки</a></div>
 			      <div class="col-xs-3 menu-hat raduis-right"><a href="/contacts">Контакты</a></div>
 		    </div>
 <br/>
 <br/>
 		    <div class="middle">
-		    		<div class="col-xs-3 submenu">колонка для подменю</div>
+		    		<div class="col-xs-3 submenu"></div>
 		    		<div class="col-xs-9 content"><?php include 'application/views/'.$content_view; ?></div>
 		    </div>
 
