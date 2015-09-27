@@ -26,8 +26,8 @@
 <br/>
 <br/>
 		    <div class="middle">
-		    		<div class="col-xs-2 submenu">колонка для подменю</div>
-		    		<div class="col-xs-10 content"><?php include 'application/views/'.$content_view; ?></div>
+		    		<div class="col-xs-3 submenu">колонка для подменю</div>
+		    		<div class="col-xs-9 content"><?php include 'application/views/'.$content_view; ?></div>
 		    </div>
 
 

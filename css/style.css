@@ -64,3 +64,18 @@ Released   : 20120712
 	}
 
 }
+
+@media (min-device-width: 480px){
+	. {
+		min-height: 5px;
+		padding: 5px;
+	}
+
+}
+@media (min-device-width: 480px){
+	. {
+		min-height: 50px;
+		padding: 20px;
+	}
+
+}
