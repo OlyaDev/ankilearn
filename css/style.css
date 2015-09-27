@@ -43,19 +43,24 @@ Released   : 20120712
 
 }
 .submenu{
+	text-align: left;
 
 }
 .content{
+	text-align: justify;
+	background: #79ABDC;
 
 }
 
 @media (max-device-width: 480px){
-	.row{
+	.container {
 		font-size: small;
 	}
+
 }
 @media (min-device-width: 480px){
-	.row{
+	.container{
 		font-size: large;
 	}
+
 }
