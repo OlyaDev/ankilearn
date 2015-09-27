@@ -26,7 +26,17 @@
 <br/>
 <br/>
 		    <div class="middle">
-		    		<div class="col-xs-3 submenu"></div>
+		    		<div class="col-xs-3 menu">Меню:
+		    				<div class="menu submenu">
+		    					Английский
+		    					<div class="submenu-list">Слова</div>
+		    					<div class="submenu-list">Глаголы</div>
+		    					<div class="submenu-list">Неправильные<br/> глаголы</div>
+		    				</div>
+		    				<div class="menu submenu">Испанскикй</div>
+		    				<div class="menu submenu">Кодинг</div>
+		    				<div class="menu submenu">Книги</div>
+		    		</div>
 		    		<div class="col-xs-9 content"><?php include 'application/views/'.$content_view; ?></div>
 		    </div>
 

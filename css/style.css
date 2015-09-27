@@ -42,13 +42,27 @@ Released   : 20120712
 .middle{
 
 }
-.submenu{
+.menu{
 	text-align: left;
+}
+.submenu{
+font-size: 85%;
 
+}
+.submenu-list{
+	font-size: 77%;
 }
 .content{
 	text-align: justify;
 	background: #79ABDC;
+
+	border-radius: 10px;
+ 	background: linear-gradient(top, #9FC7EF 5%, #79ABDC 100%);
+ 	background: -moz-linear-gradient(top, #9FC7EF 5%, #79ABDC 100%);
+ 	background: -webkit-linear-gradient(top, #9FC7EF 5%, #79ABDC 100%);
+ 	background: -o-linear-gradient(top, #9FC7EF 5%, #79ABDC 100%);
+	border: 3px ridge #81AEDA;
+	height: auto;
 
 }
 
@@ -65,17 +79,30 @@ Released   : 20120712
 
 }
 
-@media (min-device-width: 480px){
-	. {
-		min-height: 5px;
-		padding: 5px;
+@media (max-device-width: 480px){
+	.menu {
+		display: none;
 	}
 
 }
 @media (min-device-width: 480px){
-	. {
-		min-height: 50px;
-		padding: 20px;
+	.menu {
+
+	}
+
+}
+
+@media (max-device-width: 480px){
+	.middle {
+
+		font-size: xx-small;
+	}
+
+}
+@media (min-device-width: 480px){
+	.middle {
+	
+		font-size: large;
 	}
 
 }
